@@ -28,12 +28,12 @@ The application will be available at:
 - If the provided URL is invalid, the backend responds with a 400 error.
 
 ## ✅ Extra Credits implemented
-〰️Add support for accounts so people can view the URLs they have created.
-✔️ Validate the URL provided is an actual URL.
-✔️ Display an error message if invalid.
-✔️ Make it easy to copy the shortened URL to the clipboard.
-〰️ Allow users to modify the slug of their URL.
-〰️ Track visits to the shortened URL.
-〰️ Add rate-limiting to prevent bad-actors.
-〰️ Add a dashboard showing how popular your URLs are.
-✔️ Build a Docker image of your application.
+- 〰️Add support for accounts so people can view the URLs they have created.
+- ✔️ Validate the URL provided is an actual URL.
+- ✔️ Display an error message if invalid.
+- ✔️ Make it easy to copy the shortened URL to the clipboard.
+- 〰️ Allow users to modify the slug of their URL.
+- 〰️ Track visits to the shortened URL.
+- 〰️ Add rate-limiting to prevent bad-actors.
+- 〰️ Add a dashboard showing how popular your URLs are.
+- ✔️ Build a Docker image of your application.
