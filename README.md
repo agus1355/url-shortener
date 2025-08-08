@@ -5,13 +5,11 @@ This is the backend of the URL shortener application, built with NestJS and Type
 ## 🚀 How to Run
 
 1. Make sure you have Docker and Docker Compose installed.
-2. From the root directory, first run:
-
+2. From the root directory, first run (this is important, as we need a network to communicate this backend and the frontend):
 
 ```bash
 docker network create app-network
 ```
-This is important, as we need a network to communicate this backend and the frontend
 3. And then run: 
 ```bash
 docker-compose up --build
